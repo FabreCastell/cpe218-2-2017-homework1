@@ -6,13 +6,14 @@ public class Node {
     public Node right;
     public String node;
 
-    Node(String x,Node l,Node r){
+    Node(String x,Node l,Node r) {
         node = x;
         left = l;
         right = r;
-
-
     }
 
+    public String toString(){
+    return node;
+    }
 
 }
